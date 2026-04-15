@@ -25,7 +25,6 @@ class ZenCpuPlatform(CpuPlatform):
         # is_cpu() also returns True for this platform (inherited from CpuPlatform).
         return True
 
-
     # Currently, AMD CPUs do not support float16 compute.
     # Hence explicitly return bfloat16 and float32.
     @property
